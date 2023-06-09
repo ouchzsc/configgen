@@ -153,7 +153,7 @@ public class GenAllRefValues extends Generator {
                         if (++idx == cnt) {
                             line.append("\r\n");
                         } else {
-                            line.append(",");
+                            line.append("#");
                         }
                     }
                     content.append(line);
